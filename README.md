@@ -4,8 +4,10 @@ This is a modified [Minimal Mistakes Jekyll theme](https://mmistakes.github.io/m
 
 1. Let users apply any iframe object as header for 'single' layout, e.g., 
 	```yaml
+	---
 	title: "Global mobility change"
 	header:
 	  iframe:
-		url: https://dash-covid-mobi.herokuapp.com/
+	    url: https://dash-covid-mobi.herokuapp.com/
+	---
 	```
